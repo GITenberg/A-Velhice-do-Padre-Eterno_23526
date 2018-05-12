@@ -1,0 +1,38 @@
+_repo: A-Velhice-do-Padre-Eterno_23526
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Junqueiro, Abílio Manuel Guerra
+    aliases:
+    - Junqueiro, Abilio Manuel Guerra
+    - Junqueiro, Guerra
+    birthdate: 1850
+    deathdate: 1923
+    gutenberg_agent_id: '6701'
+    url: http://www.gutenberg.org/2009/agents/6701
+    wikipedia:
+    - http://pt.wikipedia.org/wiki/Guerra_Junqueiro
+    - http://en.wikipedia.org/wiki/Guerra_Junqueiro
+description: ''
+gutenberg_bookshelf: PT Poesia
+gutenberg_issued: '2007-11-17'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '23526'
+language: pt
+language_note: This ebook uses a 19th century spelling
+production_note: "Produced by Rita Farinha and the Online Distributed\r\nProofreading\
+  \ Team at http://www.pgdp.net (This file was\r\nproduced from images generously\
+  \ made available by National\r\nLibrary of Portugal (Biblioteca Nacional de Portugal).)"
+publication_note: "Lisboa:\r\nEditora Livraria Minerva\r\n18(85?)"
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Portuguese poetry'
+- !lcc 'PQ'
+title: A Velhice do Padre Eterno
+url: http://www.gutenberg.org/ebooks/23526
