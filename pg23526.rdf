@@ -1,223 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/23526">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T05:57:22.245789</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95059</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naccae3eeecd24f4683cfd91bbd889d21">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>A Velhice do Padre Eterno</dcterms:title>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/6701">
-        <pgterms:alias>Junqueiro, Guerra</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Guerra_Junqueiro"/>
-        <pgterms:name>Junqueiro, Abílio Manuel Guerra</pgterms:name>
-        <pgterms:alias>Junqueiro, Abilio Manuel Guerra</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Guerra_Junqueiro"/>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.kindle.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N32e5124d14b74624978979827f6ef9f4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T18:24:47.069096</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135384</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T18:24:45.106075</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfb2b7776cbb445f8877466358632c174">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92010</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.epub.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94164</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T18:24:45.753408</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na1dcb6c6a7ac4da6a24c4d9248bd9556">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N5fcfe5d3c3c547dbab91e81a1a57eb82">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N99463f29e11d455c9fbe4ba77057f0bb">
+        <rdf:value>PQ</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
       </rdf:Description>
-    </dcterms:language>
+    </dcterms:subject>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N252c82f3d68440ccb3ced206a8c769d2">
+        <rdf:value>PT Poesia</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-8.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N81dafd50a37446538d1e3673d23f17f9">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150214</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-17T15:48:52</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:marc546>This ebook uses a 19th century spelling</pgterms:marc546>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.kindle.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T18:24:48.234925</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137996</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N89c2fe719f204371b7e15140a85c40f6">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-h/23526-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220386</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd7d7e56302734c608dfb48e936eeb68b">
+          <rdf:Description rdf:nodeID="N3cbdb39c2acc45c78ba58560e2d26205">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-17T15:48:54</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-17</dcterms:issued>
-    <pgterms:marc260>Lisboa:&#13;
-Editora Livraria Minerva&#13;
-18(85?)</pgterms:marc260>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-8.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-17T15:48:54</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbc99e15d6e4a4d088141a022d7e33414">
+          <rdf:Description rdf:nodeID="N2a6002e92b094b83bf5e0717ce554546">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N880ed1c55dcc46bfbc725d60fdce571b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63480</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74020</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.txt.utf-8">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T18:24:44.027146</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-h/23526-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-17T15:48:54</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220386</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2adc8ce992724e01944694d731fdfcf7">
+          <rdf:Description rdf:nodeID="N84f6b370210749568b7a971464e978f6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152281</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.qioo">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:18:12.552201</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T05:57:19.760282</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125432</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf42fa4f44fea473d8ac7967dd7a641cb">
+          <rdf:Description rdf:nodeID="N6f35939103d947f2a396a945ff1bd6b1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12302</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N14dc1cb69d5b47c688893d22eb0ecadf">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Portuguese poetry</rdf:value>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nb8890a469fa943b191a6a64b8875e3ff">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85123</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:26:48.072678</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3c06f0880f4f45c69d276efbb6da3e9f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <pgterms:marc508>Produced by Rita Farinha and the Online Distributed&#13;
 Proofreading Team at http://www.pgdp.net (This file was&#13;
 produced from images generously made available by National&#13;
 Library of Portugal (Biblioteca Nacional de Portugal).)</pgterms:marc508>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-8.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd24961201d8145d1bb6b6390b042c2e4">
+          <rdf:Description rdf:nodeID="N76b47a5cd3434e5ba5756db806e65b8e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63480</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-17T15:48:54</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd25b45d6a31b410ca1fb68ddfee9e629">
+          <rdf:Description rdf:nodeID="N3d5e758ce5c842d39592700be0e11559">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74020</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-17T15:48:54</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7fd32059a53649cf924892f4736dff81">
-        <rdf:value>PQ</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      <rdf:Description rdf:nodeID="Nb649fb004195485ba5b33534cb251ae1">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Portuguese poetry</rdf:value>
       </rdf:Description>
     </dcterms:subject>
+    <pgterms:marc260>Lisboa:&#13;
+Editora Livraria Minerva&#13;
+18(85?)</pgterms:marc260>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N321a3f0222f6432fadabc3b4c2276731">
-        <rdf:value>Text</rdf:value>
+      <rdf:Description rdf:nodeID="N7bc5e3e6f10148649f8feb1c7799a8f8">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
+    <pgterms:marc546>This ebook uses a 19th century spelling</pgterms:marc546>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:26:48.322678</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82953</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6866829e82b94730a7139f48b08feeba">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341801</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na3a1e7e549864862a694e1897b0f68e0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:26:50.343642</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>A Velhice do Padre Eterno</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</pgterms:downloads>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-17</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">346579</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:26:49.336658</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N93107aa698ba4042bc75df053847143b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23526/23526-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-17T15:48:52</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150214</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N92deb3fb2cd64544bfb233a234cebdb3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/6701">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Guerra_Junqueiro"/>
+        <pgterms:name>Junqueiro, Abílio Manuel Guerra</pgterms:name>
+        <pgterms:alias>Junqueiro, Guerra</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Guerra_Junqueiro"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
+        <pgterms:alias>Junqueiro, Abilio Manuel Guerra</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23526.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/23526"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152285</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:26:47.668688</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N011037de4eba467cba524d9516341306">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
-  </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Guerra_Junqueiro">
-    <dcterms:description>en.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="http://pt.wikipedia.org/wiki/Guerra_Junqueiro">
     <dcterms:description>pt.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Guerra_Junqueiro">
+    <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
